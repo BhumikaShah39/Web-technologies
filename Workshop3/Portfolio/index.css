@@ -1,0 +1,57 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    font-family:Solway;
+}
+.Navigation{
+    height: 100vh;
+    width:100%;
+    background-image:url(background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.logo{
+    font-size: 28px;
+    color:#53230b;
+}
+span{
+    color:#53230b ;
+}
+ nav{
+    display: flex;
+    list-style:none;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+    padding-left:40%;
+    padding-right: 10%;
+
+ }
+ nav ul li{
+    list-style:none;
+    display:inline-block;
+ }
+
+nav ul li a{
+    text-decoration: none;
+    color:#9f7657;
+    padding:40px 10px;
+    font-size: 20px;
+}
+
+nav ul li a:hover{
+    color:#9f7657;
+}
+button{
+    background-color:antiquewhite ;
+    border-radius:  13pxs;
+    cursor:pointer;
+    font-size:18px;
+    color:#53230b;
+    padding: 10px 10px;
+font-weight: bold;
+}
+button:hover{
+    background-color:antiquewhite;
+}
